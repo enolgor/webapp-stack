@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="WARN" packages="com.elterx.logging">
+	<Properties>
+		<Property name="default_pattern">%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n</Property>
+	</Properties>
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout pattern="${default_pattern}" />
+		</Console>
+		<RollingRandomAccessFile name="File" fileName="${sys:application.data.path}/${sys:application.name}.log" filePattern="${sys:application.data.path}/logs/${sys:application.name}.log.%i" immediateFlush="true">
+			<PatternLayout pattern="${default_pattern}" />
+			<Policies>
+				<ForcedTriggeringPolicy />
+			</Policies>
+			<DefaultRolloverStrategy max="20"/>
+		</RollingRandomAccessFile>
+	</Appenders>
+	<Loggers>
+		<Root level="INFO">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="File" />
+		</Root>
+	</Loggers>
+</Configuration>

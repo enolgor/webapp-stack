@@ -1,0 +1,13 @@
+<database-data>
+	<pets>
+		<pet type="exotic" name="Speedy" sex="NA" registered="2015-10-18T12:37:58.00+01:00[Europe/Madrid]" age="3" comments="Quite scary" species="Aracnid/Tarantula" precaution-level="5" />
+		<pet type="domestic" name="Bobby" sex="MALE" registered="2015-11-04T10:17:27.85+01:00[Europe/Madrid]" age="18" comments="Really idiot" species="DOG" breed="Terrier" />
+		<pet type="domestic" name="Rala" sex="FEMALE" registered="2015-11-23T13:54:44.55+01:00[Europe/Madrid]" age="2" comments="Beautiful eyes" species="CAT" breed="Persian" />
+		<pet type="exotic" name="Biter" sex="MALE" registered="2015-11-28T19:12:45.65+01:00[Europe/Madrid]" age="6" comments="He is playful now" species="TIGER" precaution-level="3" />
+		<pet type="domestic" name="Singer" sex="MALE" registered="2015-12-08T09:43:32.73+01:00[Europe/Madrid]" age="6" comments="Difficult to treat" species="BIRD" breed="Parrot" />
+	</pets>
+	<medical-records>
+		<medical-record doctor="Miss BigTits" timestamp="2015-12-09T11:28:44.99+01:00[Europe/Madrid]" summary="Vaccination X1266/456-BT" />
+		<medical-record doctor="Mister SmallPenis" timestamp="2016-01-09T09:12:32.22+01:00[Europe/Madrid]" summary="Overall check. Everything fine." />
+	</medical-records>
+</database-data>

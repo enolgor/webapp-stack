@@ -1,0 +1,7 @@
+<webapp-configuration>
+	<database>
+		<url>jdbc:h2:${default.sys.application.data.path}/${project.artifactId}</url>
+		<username>root</username>
+		<password>root</password>
+	</database>
+</webapp-configuration>
