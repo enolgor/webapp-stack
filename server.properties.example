@@ -1,4 +1,0 @@
-server.scheme: http
-server.host: <ip>:<port>
-tomcat.username: changeit
-tomcat.password: changeit

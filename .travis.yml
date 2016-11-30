@@ -1,0 +1,7 @@
+language: java
+jdk:
+  - oraclejdk8
+script: mvn clean test package
+notifications:
+ email: false
+ slack: satrd-upv:T8bTpfVGmaID31yvk0F7Y20V
