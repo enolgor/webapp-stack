@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/enolgor/webapp-stack.svg?branch=master)](https://travis-ci.org/enolgor/webapp-stack)
+
 #Environment
 Suited for Eclipse IDE and JDK1.8+
 
